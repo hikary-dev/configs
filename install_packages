@@ -19,4 +19,5 @@ yay -S \
     zukitwo-themes-git \
     picom-ibhagwan-git \
     neovim \
-    betterlockscreen
+    betterlockscreen \
+    wg_tool
