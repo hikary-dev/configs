@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Установка пакетов из официальных репозиториев
+sudo pacman -S \
+    awesome \
+    alacritty \
+    lxappearance \
+    arc-gtk-theme \
+    xxkb \
+    feh \
+    flameshot \
+    ripgrep \
+    xautolock
+
+# Установка пакетов из AUR
+yay -S \
+    awoken-icons \
+    zukitwo-themes-git \
+    picom-ibhagwan-git \
+    neovim \
+    betterlockscreen
