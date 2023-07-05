@@ -10,7 +10,8 @@ sudo pacman -S \
     feh \
     flameshot \
     ripgrep \
-    xautolock
+    xautolock \
+    exa
 
 # Установка пакетов из AUR
 yay -S \
