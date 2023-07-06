@@ -40,6 +40,7 @@ local function create_time_widget(s)
     time_widget_layout.valign = "center"
 
     local time_background = wibox.widget {
+        screen=s,
         {
             time_widget_layout,
             widget = wibox.container.background,

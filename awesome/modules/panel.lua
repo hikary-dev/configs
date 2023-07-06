@@ -21,12 +21,17 @@ function panel.setup_panel(s)
 
     s.panel:struts { top = dpi(28) }
 
+    local right_widgets = wibox.layout.fixed.horizontal()
+    right_widgets.spacing = dpi(2)
+    right_widgets:add(widgets.time_widget(s))
+    --right_widgets:add(widgets.volume(s))
+
     s.panel:setup {
         layout = wibox.layout.align.horizontal,
         expand = "none",
         widgets.active_app(s),
         widgets.taglist(s),
-        widgets.time_widget(s)
+        right_widgets,
     }
 end
 
